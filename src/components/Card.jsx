@@ -10,14 +10,17 @@ const Card = (data) => {
   
     return (
        click ?
-      <div className="card w-50" onClick={handleClick}>
-          <p>{name}</p>
-          <img src={img} alt="" />
+            <div className="card w-50" onClick={handleClick}>
+                <img src={img} alt="" />
+                <p className="text-center">{name}</p>
             </div>
             :
             <div className="card w-50" onClick={handleClick}>
-            <p>{name}</p>
-                <p>{options}</p>
+                <ul>
+                    <li>{options[0]}</li>
+                    <li>{ options[1]}</li>
+                    <li>{options[2]}</li>
+                </ul>
               </div> 
             
   )
