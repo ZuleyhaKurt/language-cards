@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.kutu{
+  background-color: #e6e6e6;
+}
+.card{
+  border-radius: 20px;
+
+}
